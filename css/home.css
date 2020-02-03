@@ -208,6 +208,7 @@
 
 .works-container{
   display: none;
+  visibility:hidden;
 }
 
 .photos-section, .illustrations-section{
