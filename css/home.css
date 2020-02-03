@@ -181,16 +181,48 @@
 
       .main-content-info{
         width: 100%;
+        margin: auto;
       }
 
       .main-content-info-wrap{
         flex-flow: row;
         justify-content: space-around;
+        padding-top: 20px;
       }
+
 
 
 .block{
     max-width: 670px;
   }
+
+.works-section{
+  padding: 0;
+  margin: 0;
+}
+
+  .works-box{
+          width: 200px;
+          height: 200px;
+        }
+
+.works-container{
+  display: none;
+}
+
+.photos-section, .illustrations-section{
+    height: 700px;
+}
+
+.block{
+  max-width: 100%;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+.year-wrap h2{
+      padding-left: 10px;
+    }
+
 }
           
