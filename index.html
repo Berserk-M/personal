@@ -1,255 +1,139 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anastasiya Mazhid</title>
-  <meta name="description" content="Tiny portfolio page"> 
-  <meta name="author" content="Anastasiya Mazhid">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=0">
+	<title>Anastasiya Mazhid</title>
+	<meta name="description" content="Anastasiya's web-designer portfolio">
+	<meta name="author" content="Anastasiya Mazhid">
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/home.css">
-  
-  <!-- jQuery 1.8 or later, 33 KB -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-	<!-- Fotorama from CDNJS, 19 KB -->
-	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
-	<script src="js/main.js"></script>
-	<script src="js/photos-slide.js"></script>
-  
-  
+	<link rel="stylesheet" type="text/css" href="css/main_page.css">
+	
+	<script type="text/javascript" src="js/script.js" defer></script>
 </head>
 <body>
 
-<header class="header">
+<header>
+	<div class="container">
+		<div class="header__body container">
+			<div class="header__column column">
+				<div class="header__social social-header">
+					<ul class="social-header__list">
+						<li><a href="https://www.instagram.com/anastasiyamazhid/" class="social-header__link" target="_blank"><img src="../assets/icon/instagram.png" alt="instagram"></a></li>
+						<li><a href="https://codepen.io/anastasiyamazhid/pens/" class="social-header__link" target="_blank"><img src="../assets/icon/codepen.png" alt="codepen"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__column column">
+				<nav class="header__menu menu-header">
+					<ul class="menu-header__list">
+						<li><a href="index.html#main" class="menu-header__link">About</a></li>
+						<li><a href="#work" class="menu-header__link">Works</a></li>
+						<li><a href="index.html#contact" class="menu-header__link">Contact</a></li>
+						<li><a href="#cv" class="menu-header__link">CV</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>	
 
-	<div class="header-wrap">
-
-	  <div class="social">
-	    <a class="social-icon" href="https://www.instagram.com/anastasiyamazhid/"><img class="social-icon-instagram" src="img/icon/instagram.png" alt="instagram"></a>
-	    <a class="social-icon" href="https://codepen.io/anastasiyamazhid/pens/"><img class="social-icon-codepen" src="img/icon/codepen.png" alt="codepen"></a>
-	  </div>
-
-	  <a class="navbar-menu-icon" id="menuIcon"></a>
-
-	  <nav class="menu" id="myNav">
-	      <a class="navbar-menu-link" href="#home">Home</a>
-	      <a class="navbar-menu-link" href="#works">Works</a>
-	  </nav>
+<header>
+	<div class="container">
+		<div class="header__body container">
+			<div class="header__column column">
+				<div class="header__social social-header">
+					<ul class="social-header__list">
+						<li><a href="https://www.instagram.com/anastasiyamazhid/" class="social-header__link" target="_blank"><img src="../assets/icon/instagram.png" alt="instagram"></a></li>
+						<li><a href="https://codepen.io/anastasiyamazhid/pens/" class="social-header__link" target="_blank"><img src="../assets/icon/codepen.png" alt="codepen"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__column column">
+				<nav class="header__menu menu-header">
+					<ul class="menu-header__list">
+						<li><a href="#main" class="menu-header__link">About</a></li>
+						<li><a href="works.html" class="menu-header__link">Works</a></li>
+						<li><a href="#contact" class="menu-header__link">Contact</a></li>
+						<li><a href="works.html#cv" class="menu-header__link">CV</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</div>
 </header>
 
-	<main>
-	<section class="main-welcome-section" id="home">
-	 <h1>Hello, my name is Anastasiya</h1>
-	 <h2>
-	    This is my personal page.<br>
-	    I’m an engineer, but when I have some free time, I start to create.<br>
-	    Here you can find my fancy day off projects.
-	  </h2>
-	</section>
-
-   <section class="main-content-section">
-
-    <div class="main-content-new-section">
-         <h3 class="coloured-text underline">New in:</h3>
-
-         <div class="main-new-post">
-            
-              <img class="new-post-img" src="https://i.ibb.co/L98895X/3-of-5.jpg" alt="A newly posted stuff">
-            
-         </div>
-    </div>
-   
-     <div class="main-content-info">
-       <h3 class="coloured-text underline">What I can:</h3>
-      <div class="main-content-info-wrap">
-        <div>
-          <h4 class="underline">Engineering</h4>
-          <p>
-              Fire protection engineering<br>
-              Autodesk Revit<br>
-              Autodesk Autocad<br>
-          </p>
-        </div>
-         
-        <div>
-          <h4 class="underline">Illustration</h4>
-          <p>
-            Adobe Illustrator<br>
-            Adobe XD<br>
-          </p>
-        </div> 
-        
-        <div>  
-          <h4 class="underline">Photography</h4>
-          <p>
-            Adobe Lightroom<br>
-          </p>
-        </div>
-
-	<div>  
-          <h4 class="underline">Coding</h4>
-          <a href="https://codepen.io/anastasiyamazhid">Link to my Codepen page</a>
-        </div>
-      </div>
-     </div>
-
-   </section>
-
-  <section id="works" class="works-section">
-    <h1 class="heading">Photography & Arts</h1>
-    <h2 class="heading">I'm glad to present you all this fancy stuff below.<br> Enjoy and don't hesitate to contact me with any of your questions.</h2>
-  </section>
-
-  <section class="photos-section">
-    <h2 id="photos" class="heading font-size-bigger">Photos</h2>
-    <h3 class="heading">I make all my photos with Canon 550D</h3>
-		<div class="year-wrap scrollbar">
-			<h2>2020</h2>
-			<div class="photos-wrap">
-				<div class="block">
-					<h3 class="heading">Golf mk5 MSU</h3>
-					<div class="fotorama"
-						
-					    data-maxheight="350"
-					    data-allowfullscreen="true"
-					    data-nav="thumbs"
-					    data-transition="crossfade"
-					    data-loop="true"
-					    data-hash="true"
-					    data-arrows="false"
-				     	data-click="true"
-				     	data-swipe="true"
-				     	data-trackpad="true"
-				    >
-					
-						<img src="https://i.ibb.co/VWrRpzZ/1-of-5.jpg" alt="1">
-						<img src="https://i.ibb.co/7yDfZtf/2-of-5.jpg" alt="2">
-						<img src="https://i.ibb.co/t4PCFNp/3-of-5.jpg" alt="3">
-						<img src="https://i.ibb.co/L98895X/4-of-5.jpg" alt="4">
-					</div>
-				</div>
-				
-				
+<main>
+	<div class="container content__wrapper" id="main">
+		<section class="content__about about" >
+			
+			<div class="about__header header-about">
+				<h1 class="header-about__title">Hello, my name is Anastasiya</h1>
+				<span class="header-about__text">This is my personal page. I’m an engineer, but when I have some free time, I start to create. <br>Here you can find my fancy day off projects.</span>
 			</div>
-			<h2>2019</h2>
-			<div class="photos-wrap">
-				<div class="block">
-					<h3 class="heading">TCA33</h3>
-					<div class="fotorama"
-						
-					    data-maxheight="350"
-					    data-allowfullscreen="true"
-					    data-nav="thumbs"
-					    data-transition="crossfade"
-					    data-loop="true"
-					    data-hash="true"
-					    data-arrows="false"
-				     	data-click="true"
-				     	data-swipe="true"
-				     	data-trackpad="true"
-				    >
-						<img src="https://i.ibb.co/Rcs3GrD/1.jpg" alt="1">
-						<img src="https://i.ibb.co/R0h5QX1/2.jpg" alt="2">
-						<img src="https://i.ibb.co/cQW5Pqt/5.jpg" alt="3">
-						<img src="https://i.ibb.co/ZXxHGzB/3.jpg" alt="4">
-						<img src="https://i.ibb.co/bJpkhgr/4.jpg" alt="5">
-						<img src="https://i.ibb.co/gd8bGD6/6.jpg" alt="6">
-					</div>
+			
+			<div class="about__banner banner-about">
+				<figure class="banner-about__body">
+					<figcaption class="banner-about__title">New in:</figcaption>
+					<img class="banner-about__img" src="https://i.ibb.co/L98895X/3-of-5.jpg" alt="A newly posted stuff">
+				</figure>
+			</div>
+
+			<div class="about__body body-about">
+				<h2 class="body-about__title">What I can:</h2>
+				<div class="body-about__block block-body-about">
+					<h3 class="block-body-about__title">Engineering</h3>
+					<p>Fire protection engineering</p>
+					<p>Autodesk Revit</p>
+					<p>Autodesk Autocad</p>
 				</div>
-				<div class="block">
-					<h3 class="heading">Loftpicnic</h3>
-					<div class="fotorama"
-						
-					    data-maxheight="350"
-					    data-allowfullscreen="true"
-					    data-nav="thumbs"
-					    data-transition="crossfade"
-					    data-loop="true"
-					    data-hash="true"
-					    data-arrows="false"
-				     	data-click="true"
-				     	data-swipe="true"
-				     	data-trackpad="true"
-				    >
-						<img src="https://i.ibb.co/xgL0YhX/1.jpg" alt="1">
-						<img src="https://i.ibb.co/x5LqVfB/2.jpg" alt="2">
-						<img src="https://i.ibb.co/mtd9bX0/3.jpg" alt="3">
-						<img src="https://i.ibb.co/TrJwMdn/4.jpg" alt="4">
-						<img src="https://i.ibb.co/98wppFz/5.jpg" alt="5">
-						<img src="https://i.ibb.co/d4H9Vmr/6.jpg" alt="6">
-					</div>
+				<div class="body-about__block block-body-about">
+					<h3 class="block-body-about__title">Illustration</h3>
+					<p>Adobe Illustrator</p>
+					<p>Adobe XD</p>
+					<p>Figma</p>
 				</div>
-				<div class="block">
-					<h3 class="heading">Vagburg</h3>
-					<div class="fotorama"
-						
-					    data-maxheight="350"
-					    data-allowfullscreen="true"
-					    data-nav="thumbs"
-					    data-transition="crossfade"
-					    data-loop="true"
-					    data-hash="true"
-					    data-arrows="false"
-				     	data-click="true"
-				     	data-swipe="true"
-				     	data-trackpad="true"
-				    >
-						<img src="https://i.ibb.co/N6zBq65/IMG-7377.jpg" alt="1">
-						<img src="https://i.ibb.co/YP6q3KV/IMG-7376.jpg" alt="2">
-						<img src="https://i.ibb.co/GTnTtCM/IMG-7367.jpg" alt="3">
-						<img src="https://i.ibb.co/KrKpq4Y/IMG-7357.jpg" alt="4">
-						<img src="https://i.ibb.co/T89hc6s/IMG-7282.jpg" alt="5">
-						<img src="https://i.ibb.co/R3LgHyp/IMG-7306.jpg" alt="6">
-					</div>
+				<div class="body-about__block block-body-about">
+					<h3 class="block-body-about__title">Photography</h3>
+					<p>Adobe Lightroom</p>
+					<p>Adobe Photoshop</p>
+				</div>
+
+				<div class="body-about__block block-body-about">
+					<h3 class="block-body-about__title">Coding</h3>
+					<a href="https://codepen.io/anastasiyamazhid">Link to my Codepen page</a>
+					<a href=#>Link to my GitHub page</a>
 				</div>
 			</div>
 
-		</div>
-	</section>
+		</section>
 
-  <section class="illustrations-section">
-    <h2 id="illustrations" class="heading font-size-bigger">Other Arts</h2>
-    <h3 class="heading">Created with Adobe Illustrator and Adobe Photoshop. Some of them are created with Youtube tutorials</h3>
+		<section class="content__contact contact" id="contact">
+			<h2 class="contact__title">Contact</h2>
+			<p>If you prefer traditional e-mail conversation, try form below</p>
+			<form method="POST" action="#">
+				<label for="name">Enter your name:</label>
+				<input type="text" id="name" name="name" placeholder="Annabel" required>
+				<label for='additional'>Your ideas and proposals:</label>
+				<textarea id="additional" rows="7" placeholder="You can share here"></textarea>
+				<input type="submit" name="Send">
+			</form>
+			<p>In other cases you can find me in Telegram or Instagram via <a class="footer__link" href="#">@AnastasiyaMazhid</a></p>
+		</section>
+	</div>
+</main>
 
-    	<div class="year-wrap scrollbar">
-	    	<h2>2019</h2>
-	    	<div class="illustrations-wrap">
-	    		<div class="block">
-					<div class="fotorama"
-						
-					    data-maxheight="350"
-					    data-allowfullscreen="true"
-					    data-nav="thumbs"
-					    data-transition="crossfade"
-					    data-loop="true"
-					    data-hash="true"
-					    data-arrows="false"
-				     	data-click="true"
-				     	data-swipe="true"
-				     	data-trackpad="true"
-				    >
-						
-						<img src="https://i.ibb.co/5LHqjCG/little-fire.png" alt="1">
-						<img src="https://i.ibb.co/0rmwKcC/neon.png" alt="1">
-					</div>
-				</div>
+
+<footer>
+	<div class="container">
+		<div class="footer__body container">
+			<div class="footer__column column">
+				<a class="footer__link" href="#">@AnastasiyaMazhid</a>
+			</div>
+			<div class="footer__column column">
+				<p>Since 2019 Moscow</p>
 			</div>
 		</div>
-  </section>  
-   
- </main> 
-
- <footer class="footer">
- 	<div class="footer-wrap">
-		<p class="coloured-text">Contact me via Instagram or Telegram @AnastasiyaMazhid</p>
-		<p>Since 2019 Moscow</p>
-   </div>
- </footer>
-
-</body>
+	</div>
+</footer></body>
 </html>

@@ -1,0 +1,12 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+#Folders
+source/
+
+#Files
+prepros-6.config
+README.md

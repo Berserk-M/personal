@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+.btn {
+  display: inline-block;
+  background-color: red;
+  color: red;
+  font-family: "Bebas Neue", "Roboto", sans-serif;
+  font-size: 22px;
+  padding: 0 2em;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 4px solid red;
+  border-radius: 3px;
+  cursor: pointer; }
+
+body {
+  background-color: #fff;
+  font-family: "Bebas Neue", "Roboto", sans-serif;
+  color: #000; }
+
+.disabled {
+  display: none; }
+
+a {
+  font-size: 20px;
+  color: red; }
+  a:visited {
+    color: red; }
+  a:hover {
+    text-decoration: underline; }
+  @media (max-width: 750px) {
+    a {
+      font-size: 18px; } }
+  @media (max-width: 550px) {
+    a {
+      font-size: 16px; } }
+
+h1 {
+  font-size: 70px; }
+  @media (max-width: 750px) {
+    h1 {
+      font-size: 50px; } }
+  @media (max-width: 550px) {
+    h1 {
+      font-size: 36px; } }
+  @media (max-width: 370px) {
+    h1 {
+      font-size: 32px; } }
+
+h2 {
+  font-size: 30px; }
+  @media (max-width: 750px) {
+    h2 {
+      font-size: 24px; } }
+  @media (max-width: 550px) {
+    h2 {
+      font-size: 20px; } }
+
+h3 {
+  font-size: 22px; }
+  @media (max-width: 750px) {
+    h3 {
+      font-size: 20px; } }
+  @media (max-width: 550px) {
+    h3 {
+      font-size: 18px; } }
+
+h4 {
+  font-size: 20px; }
+  @media (max-width: 750px) {
+    h4 {
+      font-size: 18px; } }
+  @media (max-width: 550px) {
+    h4 {
+      font-size: 16px; } }
+
+p {
+  font-size: 20px; }
+  @media (max-width: 750px) {
+    p {
+      font-size: 18px; } }
+  @media (max-width: 550px) {
+    p {
+      font-size: 16px; } }
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto; }
+  @media (max-width: 550px) {
+    .container {
+      width: 94%; } }
+  @media (max-width: 320px) {
+    .container {
+      width: 98%; } }
+
+.header__body {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 3rem;
+  background: #fff; }
+
+.social-header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social-header__list li {
+    margin-left: 1.5rem; }
+    .social-header__list li:first-child {
+      margin-left: 0; }
+
+.social-header__link img {
+  width: 30px; }
+
+.menu-header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 22px; }
+  .menu-header__list li {
+    margin-left: 1.5rem; }
+    .menu-header__list li:first-child {
+      margin-left: 0; }
+    .menu-header__list li:last-child a {
+      color: red; }
+      .menu-header__list li:last-child a:visited {
+        color: red; }
+
+.menu-header__link {
+  display: block;
+  color: #000; }
+  .menu-header__link:visited {
+    color: #000; }
+
+.content__wrapper {
+  padding-top: 3.5em;
+  padding-bottom: 2.5em; }
+
+.footer__body {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  height: 2em;
+  font-size: 16px; }
